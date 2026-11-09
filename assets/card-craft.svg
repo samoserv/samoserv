@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="190" viewBox="0 0 340 190" role="img" aria-labelledby="title desc">
+  <title id="title">Thoughtful craft</title><desc id="desc">Care about clear, useful, and maintainable solutions.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#112c38"/><stop offset="1" stop-color="#17233d"/></linearGradient><style>.tool{animation:turn 8s linear infinite;transform-origin:274px 53px}@keyframes turn{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.tool{animation:none}}</style></defs>
+  <rect width="340" height="190" rx="20" fill="url(#bg)" stroke="#70f0d0" stroke-opacity=".25"/><circle cx="274" cy="53" r="34" fill="#70f0d0" opacity=".07"/>
+  <g class="tool" fill="none" stroke="#70f0d0" stroke-width="2"><path d="M274 34v38m-19-19h38m-32-13 26 26m0-26-26 26"/><circle cx="274" cy="53" r="24" opacity=".5"/></g>
+  <text x="23" y="42" fill="#70f0d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">03 / THE CRAFT</text><text x="23" y="100" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700">Thoughtful craft</text><text x="23" y="130" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">Clear, useful, maintainable</text><text x="23" y="151" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14">solutions matter to me.</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="205" viewBox="0 0 500 205" role="img" aria-labelledby="title desc">
+  <title id="title">Progress over perfection</title><desc id="desc">Small steps, steady practice, and thoughtful improvements add up.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#211b3c"/><stop offset="1" stop-color="#17243a"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#78a9ff"/><stop offset="1" stop-color="#d38aff"/></linearGradient><style>.up{animation:up 2.8s ease-in-out infinite;transform-origin:410px 102px}.bar{animation:grow 1.2s ease-out both;transform-box:fill-box;transform-origin:bottom}@keyframes up{50%{transform:translateY(-5px)}}@keyframes grow{from{transform:scaleY(.3);opacity:.4}to{transform:scaleY(1);opacity:1}}@media(prefers-reduced-motion:reduce){.up,.bar{animation:none}}</style></defs>
+  <rect width="500" height="205" rx="22" fill="url(#bg)" stroke="#d38aff" stroke-opacity=".24"/>
+  <circle cx="420" cy="75" r="65" fill="#d38aff" opacity=".06"/>
+  <text x="28" y="43" fill="#c49aff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">02 / THE PRACTICE</text>
+  <text x="28" y="91" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">⌘ Progress over perfection</text>
+  <text x="30" y="125" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Small steps and steady practice make</text><text x="30" y="149" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">the next version a little bit better.</text>
+  <g class="up"><path d="M365 119h86" stroke="#ffffff" stroke-opacity=".15"/><rect class="bar" x="376" y="99" width="13" height="20" rx="4" fill="#78a9ff"/><rect class="bar" x="399" y="84" width="13" height="35" rx="4" fill="#9a9aff"/><rect class="bar" x="422" y="67" width="13" height="52" rx="4" fill="#c28dff"/><path d="M377 83l24-15 20-14 20-9m-9 0 9 0v9" fill="none" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <path d="M30 178h440" stroke="#ffffff" stroke-opacity=".1"/><text x="30" y="194" fill="#9eabc9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.5">PRACTICE • IMPROVE • REPEAT</text>
+</svg>

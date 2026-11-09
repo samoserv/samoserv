@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="205" viewBox="0 0 500 205" role="img" aria-labelledby="title desc">
+  <title id="title">Curious by default</title><desc id="desc">I ask questions, explore how things work, and follow interesting ideas.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#152c3a"/><stop offset="1" stop-color="#17233d"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#70f0d0"/><stop offset="1" stop-color="#78a9ff"/></linearGradient><style>.bob{animation:bob 3s ease-in-out infinite;transform-origin:405px 92px}.shine{animation:shine 3s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-6px)}}@keyframes shine{50%{opacity:.35}}@media(prefers-reduced-motion:reduce){.bob,.shine{animation:none}}</style></defs>
+  <rect width="500" height="205" rx="22" fill="url(#bg)" stroke="#70f0d0" stroke-opacity=".24"/>
+  <circle cx="420" cy="70" r="63" fill="#70f0d0" opacity=".06"/>
+  <text x="28" y="43" fill="#70f0d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">01 / THE MINDSET</text>
+  <text x="28" y="91" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="700">✦ Curious by default</text>
+  <text x="30" y="125" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">I ask questions, explore how things</text><text x="30" y="149" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">work, and follow interesting ideas.</text>
+  <g class="bob"><circle cx="405" cy="90" r="29" fill="#ffffff" opacity=".06" stroke="url(#a)" stroke-width="2"/><path d="M397 99l5-14h7l5 14m-17-2h18m-14-12 3 6 3-6" fill="none" stroke="url(#a)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle class="shine" cx="445" cy="61" r="4" fill="#70f0d0"/><circle cx="370" cy="112" r="3" fill="#d38aff"/></g>
+  <path d="M30 178h440" stroke="#ffffff" stroke-opacity=".1"/><text x="30" y="194" fill="#9eabc9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.5">ASK • EXPLORE • DISCOVER</text>
+</svg>

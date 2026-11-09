@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+  <title id="title">About samoserv</title>
+  <desc id="desc">An illustrated introduction: curious, learning by building, and making useful things one step at a time.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10152b"/><stop offset="1" stop-color="#172b42"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#70f0d0"/><stop offset=".55" stop-color="#78a9ff"/><stop offset="1" stop-color="#d38aff"/></linearGradient>
+    <style>
+      .float{animation:float 4s ease-in-out infinite;transform-origin:center}.orbit{animation:orbit 12s linear infinite;transform-origin:930px 125px}.intro{animation:enter .8s ease-out both}.sub{animation:enter .8s .18s ease-out both}
+      @keyframes float{50%{transform:translateY(-7px)}}@keyframes orbit{to{transform:rotate(360deg)}}@keyframes enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @media(prefers-reduced-motion:reduce){.float,.orbit,.intro,.sub{animation:none}}
+    </style>
+  </defs>
+  <rect width="1100" height="250" rx="24" fill="url(#bg)"/>
+  <circle cx="945" cy="124" r="116" fill="#7c5cff" opacity=".08"/>
+  <path d="M0 213Q240 170 480 218T930 205t170 5" fill="none" stroke="url(#shine)" stroke-opacity=".35" stroke-width="2"/>
+  <g class="intro" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="52" y="72" fill="#70f0d0" font-size="14" letter-spacing="3">A LITTLE ABOUT ME</text>
+    <text x="52" y="126" fill="#f5f7ff" font-size="36" font-weight="700">Curiosity, meet creativity.</text>
+    <text class="sub" x="54" y="165" fill="#c5cce2" font-size="17">I learn by building, improve one detail at a time,</text>
+    <text class="sub" x="54" y="191" fill="#c5cce2" font-size="17">and enjoy making ideas useful for someone.</text>
+  </g>
+  <g class="float">
+    <circle cx="930" cy="124" r="70" fill="#ffffff" opacity=".035" stroke="#ffffff" stroke-opacity=".16"/>
+    <circle cx="930" cy="102" r="22" fill="url(#shine)" opacity=".9"/>
+    <path d="M882 175c8-30 27-44 48-44s40 14 48 44" fill="#78a9ff" opacity=".28" stroke="url(#shine)" stroke-width="2"/>
+    <path d="M907 105q23-19 46 0" fill="none" stroke="#10152b" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  </g>
+  <g class="orbit"><circle cx="930" cy="38" r="5" fill="#70f0d0"/><circle cx="1000" cy="124" r="4" fill="#d38aff"/><circle cx="860" cy="124" r="4" fill="#78a9ff"/></g>
+  <text x="864" y="224" fill="#aeb9d8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="2">ALWAYS IN THE MAKING</text>
+</svg>

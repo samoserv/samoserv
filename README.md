@@ -8,26 +8,24 @@
 
 ---
 
-## A little about me
+<div align="center">
+  <img src="assets/about-me.svg" alt="About me: curious, learning by building, and making ideas useful one step at a time." width="100%" />
+</div>
 
-I enjoy turning ideas into useful, dependable software. I’m building my skills one project at a time—learning by making things, improving them, and sharing what I discover along the way.
+## A few things that guide me
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>✦ Curious by default</strong><br />
-      I like understanding how things work, then exploring what can be made with them.
-    </td>
-    <td width="33%" valign="top">
-      <strong>⌘ Progress over perfection</strong><br />
-      Each project is a chance to practice, improve, and make the next idea better.
-    </td>
-    <td width="33%" valign="top">
-      <strong>↗ Open to collaboration</strong><br />
-      Good ideas grow through thoughtful feedback and sharing different perspectives.
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="assets/card-curious.svg" width="49%" alt="Curious by default: ask, explore, discover." />
+  <img src="assets/card-progress.svg" width="49%" alt="Progress over perfection: practice, improve, repeat." />
+</div>
+
+## More about how I work
+
+<div align="center">
+  <img src="assets/card-craft.svg" width="32%" alt="Thoughtful craft: clear, useful, maintainable solutions." />
+  <img src="assets/card-collaboration.svg" width="32%" alt="Better together: fresh perspectives and kind feedback help ideas grow." />
+  <img src="assets/card-experimenting.svg" width="32%" alt="Always experimenting: try ideas and learn along the way." />
+</div>
 
 ## What I’m building
 
