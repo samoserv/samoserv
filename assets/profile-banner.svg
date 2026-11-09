@@ -35,9 +35,9 @@
   <text x="104" y="88" fill="#b9c5e8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4">PERSONAL PROFILE • 01</text>
   <text x="72" y="177" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">Hello, I’m samoserv.</text>
   <text x="76" y="224" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">I turn curiosity into projects — one thoughtful step at a time.</text>
-  <rect x="76" y="267" width="188" height="38" rx="19" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".13"/>
-  <circle cx="96" cy="286" r="5" fill="#70f0d0" class="pulse"/>
-  <text x="111" y="292" fill="#e5e9f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1">BUILD • LEARN • REPEAT</text>
+  <rect x="76" y="267" width="254" height="42" rx="21" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".13"/>
+  <circle cx="98" cy="288" r="5" fill="#70f0d0" class="pulse"/>
+  <text x="113" y="293" fill="#e5e9f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1">BUILD • LEARN • REPEAT</text>
   <g class="float">
     <circle cx="950" cy="150" r="91" fill="none" stroke="url(#accent)" stroke-opacity=".22" stroke-width="1.5"/>
     <circle cx="950" cy="150" r="62" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".12"/>
