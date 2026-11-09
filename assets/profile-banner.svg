@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Samoserv — building with curiosity</title>
+  <desc id="desc">A custom dark profile banner with a bright gradient, orbiting dots, and a message about building and learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10152b"/>
+      <stop offset="0.55" stop-color="#19123a"/>
+      <stop offset="1" stop-color="#082a36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#70f0d0"/>
+      <stop offset="0.52" stop-color="#78a9ff"/>
+      <stop offset="1" stop-color="#d38aff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#d7e3ff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <style>
+      .float { animation: float 4s ease-in-out infinite; transform-origin: center; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .float, .pulse { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1000" cy="150" r="250" fill="url(#glow)"/>
+  <path d="M0 294C190 245 274 338 462 286s270-78 433-22 212 36 305-5" fill="none" stroke="url(#accent)" stroke-opacity=".25" stroke-width="2"/>
+  <rect x="72" y="60" width="8" height="38" rx="4" fill="url(#accent)"/>
+  <text x="104" y="88" fill="#b9c5e8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4">PERSONAL PROFILE • 01</text>
+  <text x="72" y="177" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">Hello, I’m samoserv.</text>
+  <text x="76" y="224" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">I turn curiosity into projects — one thoughtful step at a time.</text>
+  <rect x="76" y="267" width="188" height="38" rx="19" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".13"/>
+  <circle cx="96" cy="286" r="5" fill="#70f0d0" class="pulse"/>
+  <text x="111" y="292" fill="#e5e9f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1">BUILD • LEARN • REPEAT</text>
+  <g class="float">
+    <circle cx="950" cy="150" r="91" fill="none" stroke="url(#accent)" stroke-opacity=".22" stroke-width="1.5"/>
+    <circle cx="950" cy="150" r="62" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M925 151l17 17 35-39" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="950" cy="59" r="6" fill="#70f0d0"/>
+    <circle cx="1038" cy="174" r="5" fill="#d38aff"/>
+    <circle cx="875" cy="207" r="4" fill="#78a9ff"/>
+  </g>
+  <text x="865" y="296" fill="#aeb9d8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2">MADE WITH INTENTION</text>
+</svg>
