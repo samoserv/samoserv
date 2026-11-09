@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Samoserv — building with curiosity</title>
-  <desc id="desc">A custom dark profile banner with a bright gradient, orbiting dots, and a message about building and learning.</desc>
+  <desc id="desc">A custom dark profile banner with animated text, bright gradients, orbiting dots, and a message about building and learning.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#10152b"/>
@@ -22,9 +22,22 @@
     <style>
       .float { animation: float 4s ease-in-out infinite; transform-origin: center; }
       .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      .label { animation: fade-in .9s ease-out both; }
+      .headline { animation: rise-in .9s .12s ease-out both; }
+      .tagline { animation: rise-in .9s .28s ease-out both; }
+      .badge { animation: rise-in .8s .48s ease-out both; }
+      .badge-text { animation: fade-in .7s .7s ease-out both; }
+      .footer { animation: fade-in 1s .75s ease-out both; }
+      .underline { stroke-dasharray: 330; stroke-dashoffset: 330; animation: draw-line 1.2s .55s ease-out forwards; }
       @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
       @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
-      @media (prefers-reduced-motion: reduce) { .float, .pulse { animation: none; } }
+      @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+      @keyframes rise-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes draw-line { to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .float, .pulse, .label, .headline, .tagline, .badge, .badge-text, .footer, .underline { animation: none; }
+        .underline { stroke-dashoffset: 0; }
+      }
     </style>
   </defs>
   <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
@@ -32,12 +45,15 @@
   <circle cx="1000" cy="150" r="250" fill="url(#glow)"/>
   <path d="M0 294C190 245 274 338 462 286s270-78 433-22 212 36 305-5" fill="none" stroke="url(#accent)" stroke-opacity=".25" stroke-width="2"/>
   <rect x="72" y="60" width="8" height="38" rx="4" fill="url(#accent)"/>
-  <text x="104" y="88" fill="#b9c5e8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4">PERSONAL PROFILE • 01</text>
-  <text x="72" y="177" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">Hello, I’m samoserv.</text>
-  <text x="76" y="224" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">I turn curiosity into projects — one thoughtful step at a time.</text>
-  <rect x="76" y="267" width="254" height="42" rx="21" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".13"/>
-  <circle cx="98" cy="288" r="5" fill="#70f0d0" class="pulse"/>
-  <text x="113" y="293" fill="#e5e9f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1">BUILD • LEARN • REPEAT</text>
+  <text class="label" x="104" y="88" fill="#b9c5e8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="4">PERSONAL PROFILE • 01</text>
+  <text class="headline" x="72" y="177" fill="#f5f7ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700">Hello, I’m samoserv.</text>
+  <path class="underline" d="M76 194H398" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <text class="tagline" x="76" y="224" fill="#c5cce2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="23">I turn curiosity into projects — one thoughtful step at a time.</text>
+  <g class="badge">
+    <rect x="76" y="267" width="254" height="42" rx="21" fill="#ffffff" fill-opacity=".07" stroke="#ffffff" stroke-opacity=".13"/>
+    <circle cx="98" cy="288" r="5" fill="#70f0d0" class="pulse"/>
+    <text class="badge-text" x="113" y="293" fill="#e5e9f8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="1">BUILD • LEARN • REPEAT</text>
+  </g>
   <g class="float">
     <circle cx="950" cy="150" r="91" fill="none" stroke="url(#accent)" stroke-opacity=".22" stroke-width="1.5"/>
     <circle cx="950" cy="150" r="62" fill="#ffffff" fill-opacity=".035" stroke="#ffffff" stroke-opacity=".12"/>
@@ -46,5 +62,5 @@
     <circle cx="1038" cy="174" r="5" fill="#d38aff"/>
     <circle cx="875" cy="207" r="4" fill="#78a9ff"/>
   </g>
-  <text x="865" y="296" fill="#aeb9d8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2">MADE WITH INTENTION</text>
+  <text class="footer" x="865" y="296" fill="#aeb9d8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="2">MADE WITH INTENTION</text>
 </svg>
